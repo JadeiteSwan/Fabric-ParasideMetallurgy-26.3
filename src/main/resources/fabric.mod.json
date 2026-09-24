@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "paraside-metallurgy",
+	"version": "${version}",
+	"name": "Paraside Metallurgy",
+	"description": "Adds multiple ores and ore processing methods.",
+	"authors": [
+		"Jadeite",
+		"rainrnaut"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "Non-Commercial License",
+	"icon": "assets/parasidemetallurgy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.paraside.parasidemetallurgy.ParasideMetallurgy"
+		],
+		"fabric-datagen": [
+			"net.paraside.parasidemetallurgy.ParasideMetallurgyDataGenerator"
+		]
+	},
+	"mixins": [
+		"parasidemetallurgy.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
