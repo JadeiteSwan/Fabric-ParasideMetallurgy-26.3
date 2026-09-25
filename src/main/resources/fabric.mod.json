@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "paraside-metallurgy",
+	"id": "parasidemetallurgy",
 	"version": "${version}",
 	"name": "Paraside Metallurgy",
 	"description": "Adds multiple ores and ore processing methods.",
